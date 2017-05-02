@@ -3,7 +3,9 @@
 use druid628\exactTarget\EtClient;
 use druid628\exactTarget\EtSubscriber;
 
-class EtClientTest extends PHPUnit_Framework_TestCase
+require_once 'vendor/autoload.php';
+
+class EtClientTest extends \PHPUnit\Framework\TestCase
 {
     public function testServerConfig()
     {
