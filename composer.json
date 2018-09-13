@@ -12,16 +12,10 @@
             "homepage": "http://micah.breedlove.in/"
         }
     ],
-    "repositories": [
-      {
-        "type": "vcs",
-        "url": "https://github.com/modernmedia/et-wsse-php"
-      }
-    ],
     "minimum-stability": "dev",
     "require": {
         "php"              : ">=5.3.5",
-        "druid628/et-wsse" : "dev-remove_mcrypt"
+        "druid628/et-wsse" : "master"
     },
     "require-dev": {
         "satooshi/php-coveralls": "dev-master",
